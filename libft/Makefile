@@ -6,11 +6,11 @@
 #    By: allauren <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/10/06 00:46:43 by allauren          #+#    #+#              #
-#    Updated: 2017/11/12 01:25:28 by allauren         ###   ########.fr        #
+#    Updated: 2017/11/09 05:08:20 by allauren         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 NAME = libft.a
-FLAGS = -Wall -Wextra -Werror -g3 
+FLAGS = -Wall -Wextra -Werror 
 
 SRC =ft_atoi.c\
 	 ft_rev_params.c\
@@ -18,7 +18,6 @@ SRC =ft_atoi.c\
 	ft_isalpha.c\
 	ft_isdigit.c\
 	ft_isalnum.c\
-	ft_strrev.c\
 	ft_isascii.c\
 	ft_isprint.c\
 	ft_itoa.c\
